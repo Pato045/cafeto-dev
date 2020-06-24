@@ -1,0 +1,15 @@
+.product {
+    display: flex;
+    justify-content: space-between;
+}
+.product-description {
+    width: 70%;
+}
+.product-dollar-sign {
+    width: 15%;
+    text-align: right;
+}
+.product-price {
+    width: 15%;
+    text-align: right;
+}
