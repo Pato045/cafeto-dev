@@ -1,15 +1,23 @@
 .product {
+    font-size: x-large;
+}
+.product-header{
     display: flex;
     justify-content: space-between;
 }
-.product-description {
+.product-name{
     width: 70%;
 }
 .product-dollar-sign {
-    width: 15%;
+    width: 5%;
     text-align: right;
 }
 .product-price {
-    width: 15%;
+    width: 25%;
     text-align: right;
+}
+.product-description {
+    font-size: large;
+    margin-top: 4px;
+    margin-bottom: 8px;    
 }

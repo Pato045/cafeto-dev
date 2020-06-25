@@ -17,7 +17,15 @@ const App = ({products}) =>{
             <h3>-BAR-</h3>
             <h1>CAFETO</h1>
             <h2>Carta:</h2>
-            { categories }
+            <div className="category-frame">
+                { categories }
+                <div className="social-media">
+                    <a className="link" href="https://www.facebook.com/Cafeto-Bar-532254617187266"><i class="fab fa-facebook-square"></i></a>
+                    <a className="link" href="https://www.instagram.com/cafetobar/"><i class="fab fa-instagram"></i></a>
+                    <a className="link" href="https://wa.me/5493804750591"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <p className="footer">Programador: Patricio Peña</p>
         </>
     )
 };
