@@ -41,18 +41,18 @@ const products = [
     },
     {
         id: 6,
-        name: "Desayuno:",
+        name: "Desayuno Clasico:",
         description: "Cafe Grande + 2 Medialunas o criollos + Jugo de naranja",
         category:  "Promos",
-        price: 130,
+        price: 150,
         order: 1
     },
     {
         id: 7,
-        name: "Desayuno Light:)",
+        name: "Desayuno Light:",
         description: "Cafe Grande + 2 tostadas + mermelada + queso untable o manteca + Jugo",
         category:  "Promos",
-        price: 170,
+        price: 190,
         order: 2
     },
     {
